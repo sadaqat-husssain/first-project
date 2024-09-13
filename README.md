@@ -1,4 +1,4 @@
-# first-project
+# project-currency converter
 This is my first project 
 <br>
 Auther:sadaqat hussain
@@ -22,6 +22,7 @@ def fiat_currency_converter(amount, from_currency, to_currency):
         ('pkr', 'cad'): 0.0048,   # 1 PKR = 0.0048 CAD
         ('aud', 'pkr'): 182.34,   # 1 AUD = 182.34 PKR
         ('pkr', 'aud'): 0.0055,   # 1 PKR = 0.0055 AUD
+        ('pkr','pkr'):1.00,#  1 pkr=0.00 pkr 
     }
     
     # Check if the currency pair exists
