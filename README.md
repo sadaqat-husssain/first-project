@@ -2,6 +2,7 @@
 This is my first project 
 <br>
 Auther:sadaqat hussain
+<br>
 project name=currency converter
 # Define the fiat_currency_converter function
 def fiat_currency_converter(amount, from_currency, to_currency):
@@ -9,7 +10,9 @@ def fiat_currency_converter(amount, from_currency, to_currency):
     conversion_rates = {
         # Fiat Currency Conversion Rates
         ('pkr', 'usd'): 0.0036,   # 1 PKR = 0.0036 USD
+        <br>
         ('usd', 'pkr'): 278.0,    # 1 USD = 278 PKR
+        <br>
         ('eur', 'pkr'): 307.11,   # 1 EUR = 307.11 PKR
         ('pkr', 'eur'): 0.0033,   # 1 PKR = 0.0033 EUR
         ('aed', 'pkr'): 76.09,    # 1 AED = 76.09 PKR
